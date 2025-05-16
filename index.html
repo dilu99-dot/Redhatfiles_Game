@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body" onload="idleAnimationStart(); createBoxes();"onkeypress="keyCheck(event);">
+  <div class="background" id="background">
+    <img src="resources/redhatfiles/png/Idle (1).png" class="boy" id="boy">
+  </div>
+
+  <div class="end" id="end">
+    <div style="color: bisque;"> Game Over</div>
+    <div style="color: rgb(124, 70, 3);"> Your score is: </div>
+    <div style="color: rgb(0, 0, 0);" id="endScore">0</div>
+    <button class="btn" id="restart" onclick="reload()">Restart</button>
+  </div>
+
+  <div class="score" id="score">0</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
