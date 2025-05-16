@@ -29,11 +29,6 @@
 </ul>
 
 <hr />
-
-<h2>📸 Screenshots</h2>
-<p>Add gameplay screenshots here by uploading images to your repo and linking like this:</p>
-<pre><code>&lt;img src="screenshots/level1.png" alt="RedHatFiles gameplay" width="600"&gt;</code></pre>
-
 <hr />
 
 <h2>📂 Run Locally</h2>
